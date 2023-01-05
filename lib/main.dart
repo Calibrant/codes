@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
             GlobalWidgetsLocalizations.delegate,
             GlobalCupertinoLocalizations.delegate,
           ],
-          supportedLocales: Localization.iterator, 
+          supportedLocales: Localization.supportedLocales, 
           debugShowCheckedModeBanner: false,
           onGenerateTitle: ((BuildContext context) => S.of(context).app_title),
           theme: ThemeData(
